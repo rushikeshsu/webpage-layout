@@ -1,0 +1,291 @@
+.nav-bar {
+    display: flex;
+
+}
+
+.home-icon {
+    display: flex;
+    font-size: 24px;
+    flex: 50%;
+    font-weight: 900;
+    margin: 0 0 0 1rem;
+    padding: 1rem;
+    color: white
+}
+
+.links {
+    display: flex;
+    flex: 50%;
+    justify-content: space-between;
+    padding: 1rem;
+    text-align: justify;
+    text-emphasis-color: white;
+}
+
+.links > a {
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+    padding: 0.5rem
+}
+
+#search {
+    width: 30px;
+    height: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.content {
+    display: none;
+    position: absolute;
+    margin-top: 1rem;
+}
+
+
+.content a{
+    padding: 0.5rem;
+}
+
+.content a:hover{
+    background-color: green;
+    color: white
+}
+
+
+#dropdown {
+    padding: 0.5rem;
+    color: white
+}
+#dropdown:hover .content {
+    display: flex;
+    flex-direction: column;
+}
+
+#landing-page {
+    background-image: url(../assets/green-sand-paper.jpg);
+    width: 100%;
+    height: 95vh;
+    margin-top: 1em;
+}
+
+.ham-icon {
+    display: none;
+}
+
+.main-content {
+    display: flex;
+    width: 50%;
+    margin: 10% auto 0% auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    color: white;
+}
+
+.info-btns{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+
+.template-para {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+#learn-more, #get-it-now{
+    border-radius: 50px;
+    padding: 0.8rem;
+    margin: 1rem;
+    background: transparent;
+    border: 2px solid white;
+    color:white;
+    font-weight: 700;
+}
+
+#learn-more:hover, #get-it-now:hover {
+    background-color: white;
+    color: rgb(79, 212, 79);
+}
+
+
+@media only screen and  (max-width: 920px){
+    .links {
+        display: none;
+    }
+
+    .ham-icon {
+        display: flex;
+        flex:50%;
+        height: 50px;
+        max-width: 100px;
+        justify-content: flex-end;
+    }
+
+    .subscribe {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    #input-email {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+}
+
+
+/* ABOUT US  */
+
+#about {
+    width : 95%;
+    margin: 1rem auto 0 auto;
+}
+
+#about-us-title {
+    color: rgb(73, 197, 73);
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 5px;
+}
+
+.about-us-main {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-aside {
+    flex: 40%;
+}
+
+.right-aside {
+    display: flex;
+    flex: 60%;
+    margin-left: 30px;
+    flex-direction: column;
+}
+
+.earth , .rocket {
+    height: 30px;
+    width: 30px;
+    max-width: 100%;
+}
+
+.brand {
+    font-size: 30px;
+    word-spacing: 0.5rem;
+    font-weight: bold;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+}
+
+.feature h2 {
+    font-size: 24px;
+    font-weight: 300;
+    margin-left: 1rem;
+}
+
+#more-btn {
+    border-radius: 50px;
+    padding: 1rem;
+    margin: 1rem;
+    border: 2px solid white;
+    color:white;
+    font-weight: 700;
+    background-color: rgb(79, 212, 79);
+
+}
+
+.flow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flow article  {
+    flex :25%;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.flow article img {
+    margin-top : 20px;
+    margin-right: 5px;
+}
+
+.flow article div {
+    align-items: left;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.learn-more {
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: black;
+}
+
+/* NEWSLETTERS */
+
+.newsletters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/sky-image.jpg);
+    flex-direction: column;
+    margin-top: 2rem;
+    padding: 2rem;
+    max-width: 100%;
+}
+
+.newsletters p {
+    width: 50%;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#input-email {
+    border: 1px solid white;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    display: flex;
+}
+
+#subscribe-btn {
+    border: 1px solid white;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    background-color: white;
+    color: rgb(63, 173, 63);
+}
+
+#subscribe-btn:hover {
+    background-color: rgb(63, 173, 63);
+    color:white;
+}
+
+
