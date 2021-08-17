@@ -29,6 +29,11 @@
     padding: 0.5rem
 }
 
+.link {
+    text-decoration: none;
+    color: white;
+}
+
 #search {
     width: 30px;
     height: 20px;
@@ -145,30 +150,43 @@
 
 #about {
     width : 95%;
-    margin: 1rem auto 0 auto;
+    margin: 1rem auto 2rem auto;
 }
 
 #about-us-title {
     color: rgb(73, 197, 73);
     font-size: 24px;
     font-weight: bolder;
-    margin: 5px;
+    margin-top: 3rem;
 }
 
 .about-us-main {
     display: flex;
     flex-direction: row;
+    /* flex-wrap: wrap; */
 }
 
 .left-aside {
+    display: block;
     flex: 40%;
+    flex-direction: column;
 }
 
 .right-aside {
     display: flex;
     flex: 60%;
-    margin-left: 30px;
+    /* margin: 1rem 0 0 2rem; */
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.right-aside p {
+    display: flex;
+    width: 90%;
+    align-items: center;
 }
 
 .earth , .rocket {
@@ -181,6 +199,10 @@
     font-size: 30px;
     word-spacing: 0.5rem;
     font-weight: bold;
+}
+
+#horizontal-line {
+    margin: 2rem 0 2rem;
 }
 
 .features {
@@ -223,6 +245,7 @@
     margin-left: 2rem;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .flow article img {
@@ -247,12 +270,13 @@
 /* NEWSLETTERS */
 
 .newsletters {
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url(../assets/sky-image.jpg);
     flex-direction: column;
-    margin-top: 2rem;
+    margin: 5rem 0 5rem;
     padding: 2rem;
     max-width: 100%;
 }
@@ -288,4 +312,154 @@
     color:white;
 }
 
+
+/* PROJECTS */
+#projects {
+    margin-bottom: 5rem; 
+}
+#project-heading {
+    color:  rgb(63, 173, 63);
+    font-weight: 500;
+    margin-left: 1rem;
+}
+
+.project-content {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    flex-wrap: wrap;
+}
+
+.project-list {
+    display: flex;
+    flex: 20%;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+#list-of-projects {
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+#list-of-projects li {
+    padding-bottom: 2rem;
+    margin-left: 1rem;
+}
+
+#list-of-projects li:hover {
+    color: green;
+}
+
+.project-photos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 80%;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.project-photos img {
+    border: 1px solid black;
+    width: 240px;
+    height: 200px;
+    margin: 1rem;
+    text-align: center;
+}
+
+
+/* DIGITAL TEAM  */
+
+#digital-team {
+    background-image: url(../assets/violet-background.jpg);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+#digital-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+#digital-info {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    align-items: center;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 0 5rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    white-space: normal;
+
+}
+
+.card-img {
+    border : 1px solid black;
+    width: 250px;
+    height: 250px;
+    margin: 25px;
+}
+
+.name {
+    margin-top: -0.2rem;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.role {
+    margin-top: -0.7rem;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+
+/* Contact Us  */
+
+#contact-us {
+    background-image: url(../assets/world-map.png);
+}
+
+#contact-heading {
+    color:  rgb(63, 173, 63);
+    font-weight: 500;
+    margin-left: 1rem;
+}
+
+.contact-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.inputs {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto;
+    column-gap: 1rem;
+    row-gap: 2rem;
+    margin-bottom: 2rem;
+}
 
