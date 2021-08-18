@@ -184,32 +184,55 @@
     <section id="contact-us">
         <h1 id="contact-heading">CONTACT US</h1>
         <div class="contact-main"> 
-            <div id="">
+            <aside id="contact-left-aside">
                 <h1>Feel free to keep in touch with us</h1>
-                <li>
-                    <img src="" alt="call">
-                    <p>010-020-0860</p>
-                </li>
-                <li>
-                    <img src="" alt="msg">
-                    <p>info@company.com</p>
-                </li>
-                <li>
-                    <img class="earth"src="./assets/earth.jfif" alt="earth">
-                    <p>www.company.com</p>
-                </li>
-            </div>
+                <table class="contact-info">
+                    <tr>
+                        <td>
+                            <img class="call" src="./assets/call.png" alt="call">
+                        </td>
+                        <td>
+                            <p>010-020-0860</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img class="msg" src="./assets/msg.png" alt="msg">
+                    
+                        </td>
+                        <td>
+                            <p>info@company.com</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img class="earth"src="./assets/earth.jfif" alt="earth">
+                            
+                        </td>
+                        <td>
+                            <p>www.company.com</p>
+                        </td>
+                    </tr>
 
-            <div id="input-form">
+                </table>
+                
+            </aside>
+
+            <aside class="input-form">
                 <div class="inputs">
-                    <input type="text" placeholder="Your Name *" size="48"  height="30px">
-                    <input type="text" placeholder="Your Phone">
-                    <input type="text" placeholder="Your Email">
-                    <input type="text" name="" id="" placeholder="Subject">
-                    <input type="text-area"   placeholder="Message">
+                    <input type="text" id="name" placeholder="Your Name *">
+                    <p id="name-warning"></p>
+                    <input type="text" id="phone" placeholder="Your Phone">
+                    <p id="phone-warning"></p>
+                    <input type="text" id="email" placeholder="Your Email *">
+                    <p id="email-warning"></p>
+                    <input type="text" id="subject" placeholder="Subject">
+                    <p id="subject-warning"></p>
+                    <input type="text-area"  id="message" placeholder="Message">
+                    <p id="message-warning"></p>
                 </div>
                 <button id="send-msg">Send Message Now</button>
-            </div>
+            </aside>
         </div>
 
         
