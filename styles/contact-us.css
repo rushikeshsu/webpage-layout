@@ -1,0 +1,121 @@
+/* Contact Us  */
+
+#contact-us {
+  background-image: url(../assets/world-map.png);
+}
+
+.contact-heading {
+  color: rgb(63, 173, 63);
+  display: flex;
+  font-weight: 500;
+  margin: 2rem 0 1rem 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-left-aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-form {
+  margin-top: 1rem;
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 70%;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  align-items: center;
+}
+
+.inputs {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+}
+
+.inputs input {
+  width: 100%;
+  height: 2rem;
+  margin: 1rem;
+}
+
+.inputs p {
+  display: none;
+}
+.contact-info tr,
+td {
+  padding: 0.5rem;
+}
+
+.msg,
+.call {
+  height: 30px;
+  width: 30px;
+  max-width: 100%;
+}
+
+#send-msg {
+  margin-left: 2rem;
+  display: flex;
+  flex: 20%;
+  width: 55%;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 576px) {
+  #contact-us {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+  .contact-main {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact-heading {
+    justify-content: flex-start;
+  }
+  .inputs {
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-left: 0;
+  }
+
+  .inputs {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto;
+    column-gap: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 90%;
+  }
+
+  #message {
+    width: 206%;
+    height: 6rem;
+  }
+}
