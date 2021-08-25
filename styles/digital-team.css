@@ -1,63 +1,52 @@
 /* DIGITAL TEAM  */
-
 #digital-team {
-    background-image: url(../assets/violet-background.jpg);
-    display: flex;
-    flex-direction: column;
-    color: white;
-    align-items: center;
-    margin-bottom: 5rem;
+  align-items: center;
+  background-image: url(../assets/violet-background.jpg);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
 }
-
 #digital-title {
-    display: flex;
-    justify-content: center;
-    margin-top: 4rem;
-    font-weight: 100;
-    font-size: 20px;
+  display: flex;
+  font-size: 20px;
+  font-weight: 100;
+  justify-content: center;
+  margin-top: 20px;
 }
-
 #digital-info {
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-    align-items: center;
-    text-align: center;
+  align-items: center;
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  text-align: center;
 }
-
 .cards-container {
-    display: flex;
-    flex-direction: row;
-    margin: 2rem 0 5rem;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px 0 25px;
 }
-
 .card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-    white-space: normal;
-
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  white-space: normal;
 }
-
 .card-img {
-    border : 1px solid black;
-    width: 250px;
-    height: 250px;
-    margin: 25px;
+  border: 1px solid black;
+  height: 250px;
+  margin: 25px;
+  width: 250px;
 }
-
 .name {
-    margin-top: -0.2rem;
-    font-weight: bold;
-    font-size: 22px;
+  font-size: 22px;
+  font-weight: bold;
 }
-
 .role {
-    margin-top: -0.7rem;
-    font-weight: 100;
-    font-size: 14px;
+  font-size: 14px;
+  font-weight: 100;
 }

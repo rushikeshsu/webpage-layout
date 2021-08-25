@@ -1,84 +1,76 @@
 .newsletters {
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../assets/sky-image.jpg);
-    flex-direction: column;
-    /* margin: 5rem 0 5rem; */
-    padding: 1rem;
+  align-items: center;
+  background-image: url(../assets/sky-image.jpg);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
 }
-
+#heading-newsletters {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
 .newsletters p {
-    width: 80%;
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
+  width: 80%;
 }
-
 .newsletters h2 {
-    text-align: center;
+  text-align: center;
 }
-
 .subscribe {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
 }
-
 #input-email {
-    border: 1px solid white;
-    border-radius: 2rem;
-    padding: 0.5rem;
-    display: flex;
-    margin-bottom: 1rem;
+  border: 1px solid white;
+  border-radius: 2rem;
+  display: flex;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
 }
-
 #subscribe-btn {
-    border: 1px solid white;
-    border-radius: 1rem;
-    padding: 0.5rem;
-    background-color: white;
-    color: rgb(63, 173, 63);
-    align-items: center;
+  align-items: center;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 1rem;
+  color: #3fad3f;
+  padding: 0.5rem;
 }
-
 #subscribe-btn:hover {
-    background-color: rgb(63, 173, 63);
-    color:white;
+  background-color: #3fad3f;
+  color: white;
 }
 
 @media (min-width: 576px) {
-    .subscribe {
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #input-email {
-        border: 1px solid white;
-        border-radius: 2rem;
-        padding: 0.5rem;
-        display: flex;
-        margin-right: 1rem;
-        width: 50%;
-    }
-
-    #input-email {
-        margin-top: 1rem;
-        border: 1px solid white;
-        border-radius: 2rem;
-        padding: 0.5rem;
-        margin-right: 1rem;
-        display: flex;
-    
-    }
-
-    .newsletters p {
-        width: 50%;
-    }
-
-    #subscribe-btn {
-        display: inline;
-        align-items: baseline;
-        text-align: center;
-    }
+  .subscribe {
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+  #input-email {
+    border: 1px solid white;
+    border-radius: 2rem;
+    display: flex;
+    margin-right: 5px;
+    padding: 0.5rem;
+    width: 50%;
+  }
+  #input-email {
+    border: 1px solid white;
+    border-radius: 2rem;
+    display: flex;
+    margin: 5px 5px 0 0;
+    padding: 0.5rem;
+  }
+  .newsletters p {
+    width: 50%;
+  }
+  #subscribe-btn {
+    align-items: baseline;
+    display: inline;
+    text-align: center;
+  }
 }

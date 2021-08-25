@@ -1,247 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
     <script defer src="./scripts/index.js"></script>
     <title>Dummy webpage layout</title>
-</head>
-<body>
+  </head>
+  <body>
     <section id="landing-page">
-        <nav class="nav-bar">
-            <p class="home-icon">.BREEZED</p>
-            <div class="links">
-                <a href="#home">HOME</a>
-                <a href="#about">ABOUT</a>
-                <a href="#projects">PROJECTS</a>
-                <div id="dropdown">
-                    <a id="">More Features..</a>
-                    <div class="content">
-                        <a class="link" href="#digital-team">Digital Team</a>
-                        <a class="link" href="#newsletters">Newsletters</a>
-                        <a class="link" href="#contact-us">Contact Us</a>
-                    </div>
-                </div>
-                
-
-                <a href="#contact-us">CONTACT US</a>
-                <img id="search" src="./assets/search.png" alt="search">
+      <nav class="nav-bar">
+        <p class="home-icon">.BREEZED</p>
+        <div class="links">
+          <a href="#home">HOME</a>
+          <a href="#about">ABOUT</a>
+          <a href="#projects">PROJECTS</a>
+          <div id="dropdown">
+            <a id="">More Features..</a>
+            <div class="content">
+              <a class="link" href="#digital-team">Digital Team</a>
+              <a class="link" href="#newsletters">Newsletters</a>
+              <a class="link" href="#contact-us">Contact Us</a>
             </div>
-            <div class="ham-icon">
-                <img src="./assets/ham.png" alt="ham icon">
-            </div>
-        </nav>
-        <main class="main-content">
-            <h2 class="welcome-title">WELCOME TO BREEZED</h2>
-            <p class="template-para">New Bootstrap Template</p>
-            <div class="info-btns">
-                <button id="learn-more">LEARN MORE</button>
-                <button id="get-it-now">GET IT NOW</button>
-            </div>
-        </main>
-
-
+          </div>
+          <a href="#contact-us">CONTACT US</a>
+          <img id="search" src="./assets/search.png" alt="search" />
+        </div>
+        <div class="ham-icon">
+          <img src="./assets/ham.png" onclick="navToggler()" alt="ham icon" />
+        </div>
+      </nav>
+      <main class="main-content">
+        <h2 class="welcome-title">WELCOME TO BREEZED</h2>
+        <p class="template-para">New Bootstrap Template</p>
+        <div class="info-btns">
+          <button id="learn-more">LEARN MORE</button>
+          <button id="get-it-now">GET IT NOW</button>
+        </div>
+      </main>
     </section>
 
     <!-- ABOUT US -->
     <section id="about">
-        <p id="about-us-title">About us</p>
-        <main class="about-us-main">
-            <aside class="left-aside">
-                <h1 class="brand">We Work with Top brands and Startups</h1>
-                <div class="features">
-                    <div>
-                        <div class="feature">
-                            <img class="rocket" src="./assets/rocket.png" alt="rocket icon">
-                            <h2>TOP NOTCH</h2>
-                        </div>
-                        <div class="feature">
-                            <img class="earth" src="./assets/earth.jfif" alt="earth icon">
-                            <h2>RELIABLE</h2>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="feature">
-                            <img class="rocket" src="./assets/rocket.png" alt="rocket icon">
-                            <h2>ROBUST</h2>
-                        </div>
-                        
-                        <div class="feature">
-                            <img class="earth" src="./assets/earth.jfif" alt="earth icon">
-                            <h2>UP-TO-DATE</h2>
-                        </div>
-                    </div>
-                    
-                        
-                </div>
-                <button id="more-btn">LEARN MORE</button>
-            </aside>
-    
-            <aside class="right-aside">
-                <p>
-                    Breezed HTML Template
-                    is Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate nam vitae officiis doloribus recusandae, maiores ipsum cum distinctio itaque, rerum suscipit deserunt magnam temporibus quod minima. Officiis, minus deleniti.
-                </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque placeat atque rerum voluptatum est explicabo sunt quibusdam fuga molestias a iure distinctio, dolore vero possimus laudantium excepturi eos nisi corporis.</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum culpa voluptatibus, laudantium, perspiciatis molestias aliquam architecto, impedit distinctio deserunt exercitationem et maiores? Iste sed unde harum veniam ut quo cumque?</p>
-            </aside>
-        </main>
-        
-        <hr id="horizontal-line">
-        <div class="flow">
-            <article>
-                <img class="rocket" src="./assets/rocket.png" alt="rocket icon">
-                <div>
-                    <h2>INITIAL WORK</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, iure? Vel voluptatibus adipisci quasi reiciendis voluptates rerum voluptate iste illo commodi, possimus nobis nam quia eius fugiat quisquam maxime ex.</p>
-                    <a class="learn-more" href="#">LEARN MORE...</a>
-                </div> 
-            </article>
-            <article>
-                <img class="rocket" src="./assets/rocket.png" alt="rocket icon">
-                <div>
-                    <h2>MASTER PLANNING</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, iure? Vel voluptatibus adipisci quasi reiciendis voluptates rerum voluptate iste illo commodi, possimus nobis nam quia eius fugiat quisquam maxime ex.</p>
-                    <a class="learn-more" href="#">LEARN MORE...</a>
-                </div>
-                
-            </article>
-            <article>
-                <img class="rocket" src="./assets/rocket.png" alt="rocket icon">
-                <div>
-                    <h2>SMOOTH EXECUTION</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, iure? Vel voluptatibus adipisci quasi reiciendis voluptates rerum voluptate iste illo commodi, possimus nobis nam quia eius fugiat quisquam maxime ex.</p>
-                    <a class="learn-more" href="#">LEARN MORE ...</a>
-                </div>
-                
-            </article>
-        </div>
+      <p id="about-us-title">About us</p>
+      <main class="about-us-main">
+        <aside class="left-aside">
+          <h1 class="brand">We Work with Top brands and Startups</h1>
+          <div class="features">
+            <div>
+              <div class="feature">
+                <img
+                  class="rocket"
+                  src="./assets/rocket.png"
+                  alt="rocket icon"
+                />
+                <h2>TOP NOTCH</h2>
+              </div>
+              <div class="feature">
+                <img class="earth" src="./assets/earth.jfif" alt="earth icon" />
+                <h2>RELIABLE</h2>
+              </div>
+            </div>
+            <div>
+              <div class="feature">
+                <img
+                  class="rocket"
+                  src="./assets/rocket.png"
+                  alt="rocket icon"
+                />
+                <h2>ROBUST</h2>
+              </div>
+              <div class="feature">
+                <img class="earth" src="./assets/earth.jfif" alt="earth icon" />
+                <h2>UP-TO-DATE</h2>
+              </div>
+            </div>
+          </div>
+          <button id="more-btn">LEARN MORE</button>
+        </aside>
+        <aside class="right-aside">
+          <p>
+            Breezed HTML Template is Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Iusto cupiditate nam vitae officiis doloribus
+            recusandae, maiores ipsum cum distinctio itaque, rerum suscipit
+            deserunt magnam temporibus quod minima. Officiis, minus deleniti.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+            placeat atque rerum voluptatum est explicabo sunt quibusdam fuga
+            molestias a iure distinctio, dolore vero possimus laudantium
+            excepturi eos nisi corporis.
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum
+            culpa voluptatibus, laudantium, perspiciatis molestias aliquam
+            architecto, impedit distinctio deserunt exercitationem et maiores?
+            Iste sed unde harum veniam ut quo cumque?
+          </p>
+        </aside>
+      </main>
+      <hr id="horizontal-line" />
+      <div class="flow">
+        <article>
+          <img class="rocket" src="./assets/rocket.png" alt="rocket icon" />
+          <div>
+            <h2>INITIAL WORK</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui,
+              iure? Vel voluptatibus adipisci quasi reiciendis voluptates rerum
+              voluptate iste illo commodi, possimus nobis nam quia eius fugiat
+              quisquam maxime ex.
+            </p>
+            <a class="learn-more" href="#">LEARN MORE...</a>
+          </div>
+        </article>
+        <article>
+          <img class="rocket" src="./assets/rocket.png" alt="rocket icon" />
+          <div>
+            <h2>MASTER PLANNING</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui,
+              iure? Vel voluptatibus adipisci quasi reiciendis voluptates rerum
+              voluptate iste illo commodi, possimus nobis nam quia eius fugiat
+              quisquam maxime ex.
+            </p>
+            <a class="learn-more" href="#">LEARN MORE...</a>
+          </div>
+        </article>
+        <article>
+          <img class="rocket" src="./assets/rocket.png" alt="rocket icon" />
+          <div>
+            <h2>SMOOTH EXECUTION</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui,
+              iure? Vel voluptatibus adipisci quasi reiciendis voluptates rerum
+              voluptate iste illo commodi, possimus nobis nam quia eius fugiat
+              quisquam maxime ex.
+            </p>
+            <a class="learn-more" href="#">LEARN MORE ...</a>
+          </div>
+        </article>
+      </div>
     </section>
 
     <!-- NEWSLETTERS -->
     <section class="newsletters">
-        <h2>SUBSCRIBE NEWSLETTERS</h2>
-        <h1>Don't miss this chance!</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolores sed cum culpa, commodi repellat veritatis delectus dolorum veniam pariatur hic vel recusandae neque et ut quaerat excepturi? Voluptates, repudiandae.</p>
-        <div class="subscribe">
-            <input id="input-email" type="text" placeholder="Enter your mail..">
-            <button onclick="validateEmail()" id="subscribe-btn">SUBSCRIBE NOW</button>
-        </div>
-        <p id="msg"></p>
+      <h2>SUBSCRIBE NEWSLETTERS</h2>
+      <p id="heading-newsletters">Don't miss this chance!</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolores
+        sed cum culpa, commodi repellat veritatis delectus dolorum veniam
+        pariatur hic vel recusandae neque et ut quaerat excepturi? Voluptates,
+        repudiandae.
+      </p>
+      <div class="subscribe">
+        <input id="input-email" type="text" placeholder="Enter your mail.." />
+        <button onclick="validateEmail()" id="subscribe-btn">
+          SUBSCRIBE NOW
+        </button>
+      </div>
+      <p id="msg"></p>
     </section>
-
 
     <!-- PROJECTS -->
     <section id="projects">
-        <h1 id="project-heading">Our Projects</h1>
-        <main class="project-content">
-            <div class="project-list">
-                <h1 id="list-heading">Some of our projects</h1>
-                <div id="list-of-projects">
-                    <li>ALL</li>
-                    <li>WEB DESIGN</li>
-                    <li>WEB DEVELOPMENT</li>
-                    <li>GRAPHICS</li>
-                    <li>ARTWORKS</li>
-                </div>
-            </div>
-            <div class="project-photos">
-                <img src="./assets/flower_1.jfif" alt="flower">
-                <img src="./assets/travel_2.jpg" alt="traveller">
-                <img src="./assets/travelel_4.jfif" alt="traveller">
-                <img src="./assets/traveller.jfif" alt="traveller">
-                <img src="./assets/bicycle.jfif" alt="bicycle">
-                <img src="./assets/flower_2.jfif" alt="flower">
-            </div>
-        </main>
-    </section>
-    
-    <!-- DIGITAL TEAM  -->
-
-    <section id="digital-team">
-        <h2 id="digital-title">DIGITAL TEAM</h2>
-        <h1 id="digital-info">young and talented members</h1>
-        <div class="cards-container">
-            <div class="card">
-                <img class="card-img" src="./assets/white_cheese.jfif" alt="white cheese photo">
-                <p class="name">.01 WHITE CHEESE</p>
-                <p class="role">DIGITAL MARKETER</p>
-            </div>
-            <div class="card">
-                <img class="card-img" src="./assets/snow_mary.jfif" alt="snow mary photo">
-                <p class="name">.02 SNOW MARY</p>
-                <p class="role">SITE ANALYST</p>
-            </div>
-            <div class="card">
-                <img class="card-img" src="./assets/jhonny_egg.jfif" alt="jhonny egg photo">
-                <p class="name">.03 JOHNNY EGG</p>
-                <p class="role">DIGITAL INFLUENCER</p>
-            </div>
+      <h1 id="project-heading">Our Projects</h1>
+      <main class="project-content">
+        <div class="project-list">
+          <h1 id="list-heading">Some of our projects</h1>
+          <div id="list-of-projects">
+            <li>ALL</li>
+            <li>WEB DESIGN</li>
+            <li>WEB DEVELOPMENT</li>
+            <li>GRAPHICS</li>
+            <li>ARTWORKS</li>
+          </div>
         </div>
+        <div class="project-photos">
+          <img src="./assets/flower_1.jfif" alt="flower" />
+          <img src="./assets/travel_2.jpg" alt="traveller" />
+          <img src="./assets/travelel_4.jfif" alt="traveller" />
+          <img src="./assets/traveller.jfif" alt="traveller" />
+          <img src="./assets/bicycle.jfif" alt="bicycle" />
+          <img src="./assets/flower_2.jfif" alt="flower" />
+        </div>
+      </main>
+    </section>
+
+    <!-- DIGITAL TEAM  -->
+    <section id="digital-team">
+      <h2 id="digital-title">DIGITAL TEAM</h2>
+      <h1 id="digital-info">young and talented members</h1>
+      <div class="cards-container">
+        <div class="card">
+          <img
+            class="card-img"
+            src="./assets/white_cheese.jfif"
+            alt="white cheese photo"
+          />
+          <p class="name">.01 WHITE CHEESE</p>
+          <p class="role">DIGITAL MARKETER</p>
+        </div>
+        <div class="card">
+          <img
+            class="card-img"
+            src="./assets/snow_mary.jfif"
+            alt="snow mary photo"
+          />
+          <p class="name">.02 SNOW MARY</p>
+          <p class="role">SITE ANALYST</p>
+        </div>
+        <div class="card">
+          <img
+            class="card-img"
+            src="./assets/jhonny_egg.jfif"
+            alt="jhonny egg photo"
+          />
+          <p class="name">.03 JOHNNY EGG</p>
+          <p class="role">DIGITAL INFLUENCER</p>
+        </div>
+      </div>
     </section>
 
     <!-- CONTACT US  -->
     <section id="contact-us">
-        <h1 class="contact-heading">CONTACT US</h1>
-        <div class="contact-main"> 
-            <aside id="contact-left-aside">
-                <h1>Feel free to keep in touch with us</h1>
-                <table class="contact-info">
-                    <tr>
-                        <td>
-                            <img class="call" src="./assets/call.png" alt="call">
-                        </td>
-                        <td>
-                            <p>010-020-0860</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <img class="msg" src="./assets/msg.png" alt="msg">
-                    
-                        </td>
-                        <td>
-                            <p>info@company.com</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <img class="earth"src="./assets/earth.jfif" alt="earth">
-                            
-                        </td>
-                        <td>
-                            <p>www.company.com</p>
-                        </td>
-                    </tr>
-
-                </table>
-                
-            </aside>
-
-            <aside class="input-form">
-                <div class="inputs">
-                    <input type="text" id="name" placeholder="Your Name *">
-                    <p id="name-warning"></p>
-                    <input type="text" id="phone" placeholder="Your Phone">
-                    <p id="phone-warning"></p>
-                    <input type="text" id="email" placeholder="Your Email *">
-                    <p id="email-warning"></p>
-                    <input type="text" id="subject" placeholder="Subject">
-                    <p id="subject-warning"></p>
-                    <input type="text-area"  id="message" placeholder="Message">
-                    <p id="message-warning"></p>
-                </div>
-                <button id="send-msg">Send Message Now</button>
-            </aside>
-        </div>
-
-        
+      <h1 class="contact-heading">CONTACT US</h1>
+      <div class="contact-main">
+        <aside id="contact-left-aside">
+          <h1>Feel free to keep in touch with us</h1>
+          <table class="contact-info">
+            <tr>
+              <td>
+                <img class="call" src="./assets/call.png" alt="call" />
+              </td>
+              <td>
+                <p>010-020-0860</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img class="msg" src="./assets/msg.png" alt="msg" />
+              </td>
+              <td>
+                <p>info@company.com</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img class="earth" src="./assets/earth.jfif" alt="earth" />
+              </td>
+              <td>
+                <p>www.company.com</p>
+              </td>
+            </tr>
+          </table>
+        </aside>
+        <aside class="input-form">
+          <p id="msg-warning"></p>
+          <div class="inputs">
+            <input type="text" id="name" placeholder="Your Name *" />
+            <input type="text" id="phone" placeholder="Your Phone" />
+            <input type="text" id="email" placeholder="Your Email *" />
+            <input type="text" id="subject" placeholder="Subject" />
+            <input type="text" id="message" placeholder="Message" />
+          </div>
+          <button id="send-msg" onclick="validateDetails()">
+            Send Message Now
+          </button>
+        </aside>
+      </div>
     </section>
 
     <!-- FOOTER  -->
     <section id="footer">
-        
+      <p class="copyright">
+        Copyright &copy; 2020 Breezed CO. Ltd. - Design: TemplateMo
+      </p>
+      <div class="follow-us">
+        <p id="follow-text">FOLLOW US</p>
+        <div class="social-links">
+          <img src="./assets/fb.png" alt="fb" />
+          <img src="./assets/twitter.png" alt="twitter" />
+          <img src="./assets/linkedin.png" alt="linkedin" />
+          <img src="./assets/whatsapp.png" alt="whatsapp" />
+        </div>
+      </div>
     </section>
-</body>
+  </body>
 </html>
