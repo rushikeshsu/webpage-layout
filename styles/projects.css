@@ -1,30 +1,30 @@
 /* PROJECTS */
 #projects {
-  margin-bottom: 5rem;
+  margin-bottom: 25px;
 }
 #project-heading {
   color: #3fad3f;
   font-weight: 500;
-  margin-left: 1rem;
+  margin-left: 10px;
 }
 .project-content {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 1rem;
+  margin: 10px;
   text-align: center;
 }
 .project-list {
   display: flex;
   flex: 20%;
   flex-direction: column;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 #list-of-projects {
   display: flex;
   flex-direction: column;
   list-style: none;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   text-decoration: none;
 }
 #list-of-projects li {
@@ -46,7 +46,7 @@
 .project-photos img {
   border: 1px solid black;
   height: 200px;
-  margin: 5px;
+  margin: 25px;
   text-align: center;
   width: 240px;
 }

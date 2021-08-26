@@ -24,9 +24,9 @@
 .input-form {
   align-items: center;
   display: flex;
-  flex-wrap: wrap;
   flex: 70%;
   flex-direction: column;
+  flex-wrap: wrap;
   height: auto;
   justify-content: center;
   margin-top: 5px;
@@ -122,10 +122,13 @@ td {
   }
   .inputs input {
     height: 2rem;
-    margin: 1rem;
+    margin: 10px;
     width: 130%;
   }
   #message {
     width: 285%;
+  }
+  #send-msg {
+    margin: 0 auto 0 auto;
   }
 }

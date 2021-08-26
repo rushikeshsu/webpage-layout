@@ -10,10 +10,10 @@
 .home-icon {
   color: white;
   display: flex;
-  font-size: 24px;
   flex: 50%;
+  font-size: 24px;
   font-weight: 900;
-  margin: 0 0 0 1rem;
+  margin: 0 0 0 10px;
   padding: 1rem;
 }
 .links {
@@ -56,8 +56,8 @@
   border-radius: 50px;
   color: #ffffff;
   font-weight: 700;
-  margin: 5px;
-  padding: 5px;
+  margin: 10px;
+  padding: 12px;
 }
 #learn-more:hover,
 #get-it-now:hover {
@@ -80,8 +80,8 @@
     display: flex;
     flex: 50%;
     justify-content: space-between;
-    margin-top: 10px;
-    padding: 5px;
+    margin-top: 15px;
+    padding: 20px;
     text-align: center;
     text-emphasis-color: white;
   }
@@ -122,12 +122,11 @@
     flex-direction: column;
   }
   .main-content {
-    margin-top: 5rem;
+    margin-top: 150px;
   }
 }
 
 @media (min-width: 768px) {
-  /* LANDING PAGE  */
   .home-icon {
     color: white;
     display: flex;
@@ -148,7 +147,7 @@
     flex-direction: row;
   }
   .main-content {
-    margin-top: 300px;
+    margin-top: 150px;
   }
 }
 
@@ -158,5 +157,8 @@
   }
   .links {
     flex: 50%;
+  }
+  .main-content {
+    margin-top: 250px;
   }
 }
